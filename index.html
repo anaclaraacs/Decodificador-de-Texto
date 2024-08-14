@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.svg" alt="Logo">
+        </div>
+    </header>
+    <div class="container">
+        
+        <div class="left-column">
+            <h1>Digite seu texto</h1>
+            <textarea id="inputText" placeholder="Digite o texto aqui"></textarea>
+            <div class="buttons">
+                <button id="encryptBtn">Criptografar</button>
+                <button id="decryptBtn">Descriptografar</button>
+            </div>
+            <div class="note">
+                <p>* Apenas letras minúsculas e sem acento.</p>
+            </div>
+        </div>
+        
+        
+        <div class="right-column">
+            <img id="resultImage" src="img/imagem.png" alt="Imagem de resultado">
+            <p id="outputText"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Ana Clara</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
